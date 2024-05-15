@@ -15,5 +15,40 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Let: É usado para delcarar variáveis que os valores podem ser retribuidos
     let B = 0
+    B = 10;
+  console.log(B);
+
+  const notaMedia = 6;
+  if (notaMedia >= 6) {
+    //aqui vai o código
+   // alert("aluno aprovado");
+  } 
+  else if (notaMedia >= 4 && notaMedia < 6) {
+   // alert("aluno quase pasou")
+  } 
+  else {
+    //aqui vai o codigo
+   // alert("aluno reprovado");
+  }
+
+  //----------operadores-----------
+
+  // = sinal de atribuição 
+  // == sinal de comparação 
+  // === verifica se os dois são iguais e tem o mesmo tipo de dados 
+  // != compara se é diferente 
+  // !== compara se é estritamente diferente 
+  // >maior 
+  // < menor 
+
+
+  const numero = "6";
+  if (numero == 6){
+    alert("é igual");
+  }
+  else {
+    alert( "o tipo de dado é diferente ");
+  }
+
 
 });
