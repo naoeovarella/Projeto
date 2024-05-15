@@ -50,5 +50,11 @@ document.addEventListener('DOMContentLoaded', function() {
     alert( "o tipo de dado é diferente ");
   }
 
+//Funções são blocos de codigo que podem ser chamados e reutilizados
+
+function primeiraFuncao() {
+    //Aqui vai os cóidigos
+    return "Olá, essa é a disciplina de Desenvolvimento Web";
+}
 
 });
